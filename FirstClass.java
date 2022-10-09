@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class FirstClass {
 
   public static void main(String args[]) {
@@ -19,17 +21,22 @@ class FirstClass {
     // System.out.println(z3);
     // String z4 = "sdfsdf";
     // System.out.println(z4);
-    String x = "Hello";
-    String y = "World";
-    System.out.println("Before swapping");
-    System.out.println("x => " + x);
-    System.out.println("y => " + y);
-    String temp = "";
-    temp = x;
-    x = y;
-    y = temp;
-    System.out.println("After swapping");
-    System.out.println("x => " + x);
-    System.out.println("y => " + y);
+    // String x = "Hello";
+    // String y = "World";
+    // System.out.println("Before swapping");
+    // System.out.println("x => " + x);
+    // System.out.println("y => " + y);
+    // String temp = "";
+    // temp = x;
+    // x = y;
+    // y = temp;
+    // System.out.println("After swapping");
+    // System.out.println("x => " + x);
+    // System.out.println("y => " + y);
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("What is your name?");
+    String name = scanner.nextLine();
+    System.out.println("Hello " + name);
   }
 }
