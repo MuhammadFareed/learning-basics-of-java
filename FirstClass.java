@@ -19,5 +19,17 @@ class FirstClass {
     // System.out.println(z3);
     // String z4 = "sdfsdf";
     // System.out.println(z4);
+    String x = "Hello";
+    String y = "World";
+    System.out.println("Before swapping");
+    System.out.println("x => " + x);
+    System.out.println("y => " + y);
+    String temp = "";
+    temp = x;
+    x = y;
+    y = temp;
+    System.out.println("After swapping");
+    System.out.println("x => " + x);
+    System.out.println("y => " + y);
   }
 }
